@@ -1,0 +1,8 @@
+x = int(input('x: '))
+y = int(input('y: '))
+print(f'두수의 합:\t{x+y}')
+print(f'두수의 차:\t{abs(x-y)}')
+print(f'두수의 곱:\t{x*y}')
+print(f'두수의 평균:\t{(x+y)/2}')
+print(f'큰 수:\t{max(x,y)}')
+print(f'작은 수:\t{min(x,y)}')
